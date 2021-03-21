@@ -29,7 +29,6 @@ public class SampleServiceImpl implements SampleService{
 	@Override
 	public List<Map<String, Object>> selectBoardList(Map<String, Object> map) throws Exception {
 		return sampleDAO.selectBoardList(map);
-		
 	}
 
 	@Override
